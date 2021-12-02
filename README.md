@@ -1,8 +1,8 @@
 
 # vimq.vim
 
-csvやtsvのようなテキストファイルに対してsql構文を実行し、データの抽出を行うことが出来ます。
-vimをインターフェースとして、入力を[q](https://github.com/harelba/q)に渡し、新しいwindowで開きます。
+csvやtsvのようなテキストファイルに対してsql構文を実行し、データの抽出を行うことが出来ます。  
+vimをインターフェースとして、入力を[q](https://github.com/harelba/q)に渡し、結果を受け取り表示します。
 
 ## Requirements
 
