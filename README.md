@@ -68,7 +68,7 @@ user_id, hp, attack, speed
 ##### select * from ./user.csv
 
 
-![Uploading 3.gif…]()
+![3](https://user-images.githubusercontent.com/39527561/145525305-7ef9d3f7-b390-4c11-b892-fd83aa77626a.gif)
 
 
 ```
