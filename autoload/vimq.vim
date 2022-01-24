@@ -11,14 +11,14 @@ let s:vimq_result_window_row = get(g:, 'vimq_result_window_row', 10)
 
 
 function! vimq#Exec(input_query) abort
-  let file_content = vimq#GetCurrentContent()
+  let current_buf = vimq#GetCurrentBufNo()
   let cmd = vimq#CreateCmd(a:input_query)
-  let res = system(cmd, file_content)
+  let res = system(cmd, current_buf)
   call vimq#PrintResult(res)
 endfunction
 
-" 現在開いているファイルの中身を取得します
-function! vimq#GetCurrentContent() abort
+" 現在開いているファイルのバフ番号を取得します
+function! vimq#GetCurrentBufNo() abort
   return bufnr("%")
 endfunction
 
